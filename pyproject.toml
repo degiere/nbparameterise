@@ -1,5 +1,5 @@
 [build-system]
-requires = ["flit"]
+requires = ["setuptools", "wheel", "flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
@@ -11,6 +11,5 @@ classifiers = ["License :: OSI Approved :: MIT License",
     "Framework :: Jupyter",
 ]
 description-file = "README.rst"
-requires = ["setuptools", "wheel", "nbconvert", "astsearch"]
+requires = ["nbconvert", "astsearch"]
 requires-python = ">=3.4"
-
