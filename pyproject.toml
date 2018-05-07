@@ -1,5 +1,6 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["flit"]
+build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
 module = "nbparameterise"
@@ -12,3 +13,4 @@ classifiers = ["License :: OSI Approved :: MIT License",
 description-file = "README.rst"
 requires = ["nbconvert", "astsearch"]
 requires-python = ">=3.4"
+
