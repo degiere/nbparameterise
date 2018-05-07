@@ -1,6 +1,5 @@
 [build-system]
-requires = ["setuptools", "wheel", "flit"]
-build-backend = "flit.buildapi"
+requires = ["setuptools", "wheel"]
 
 [tool.flit.metadata]
 module = "nbparameterise"
